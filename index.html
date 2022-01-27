@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="#" rel="stylesheet">
+  <title>Intrading's Landing Page</title>
+</head>
+<body>
+  <div id="topnav" class="navbar">
+  <img class="logo" src="images/logo.jpg" alt="Imagem do container">
+    <div class="navbar-right menu">
+      <a href="http://intradingglobal.com/pt/empresa/" target="_blank">
+        Sobre
+      </a>
+      <a href="http://intradingglobal.com/pt/?post_type=servicos" target="_blank">
+        Serviços
+      </a>
+      <a href="https://wa.me/5598991895696?text=Oi,%20como%20podemos%20ajuda-lo(a)?" target="_blank">
+        Contato
+      </a>
+    </div>
+    <div class="navbar-right">
+      <a class="icon" onclick="showMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  <div id="slideshow-container" class="slideshow-container">
+    <div class="slide-item bgimg fade" style="background-image: url('images/ferrovia.jpeg');">
+      <div class="caption">
+        <h2>
+          Modal Ferroviário
+        </h2>
+        <p>Entre os objetivos está integrar os modais logísticos existentes entre os estados do Maranhão ao Ceará, região que compreende hoje três portos, através da ferrovia Transnordestina. Através das nossas propostas utilizando esse modal, geramos grandes oportunidades na competitividade e redução dos custos logísticos principalmente para o Maranhão e Piauí.</p>
+        <button>
+          Saiba mais
+        </button>
+      </div>
+    </div>
+
+    <div class="slide-item bgimg fade" style="background-image: url('images/desembaraco.jpeg');">
+      <div class="caption">
+        <h2>
+          Desembaraço aduaneiro
+        </h2>
+        <p>Realizamos esse serviço com atendimento de profissionais altamente capacitados para oferecer serviços personalizados nas mais diversas operações internacionais de compra e venda.</p>
+        <button>
+          Saiba mais
+        </button>
+      </div>
+    </div>
+
+    <div class="slide-item bgimg fade" style="background-image: url('images/importacao.jpg');">
+      <div class="caption">
+        <h2>
+          Importação e Exportação
+        </h2>
+        <p>Coordenação de processos com prazos e custos reduzidos e alta segurança e confiabilidade. Realizamos a elaboração de estimativas de custos e planejamento, apresentamos a integração de diferentes modais: hidroviário, ferroviário, rodoviário e aéreo, além do follow-up de processos porta a porta.</p>
+        <button>
+          Saiba mais
+        </button>
+      </div>
+    </div>
+
+
+    <div id="slide-control" class="slide-control">
+      <span class="dot" onclick="chooseSlide(0)"></span>
+      <span class="dot" onclick="chooseSlide(1)"></span>
+      <span class="dot" onclick="chooseSlide(2)"></span>
+    </div>
+  </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
